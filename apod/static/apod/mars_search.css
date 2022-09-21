@@ -1,0 +1,13 @@
+body{
+    background-image:url("images/mars_background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+}

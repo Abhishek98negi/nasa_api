@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mars Images</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href ="static\apod\mars_search.css" rel="stylesheet">
+</head>
+
+<body>
+
+ 
+  <form method = "GET">
+      {{ form.as_p }}
+      {% csrf_token %}
+      <input type = "Submit" value = "Submit">
+  </form>
+
+  <h1>The images taken by the Curiosity Rover.</h1>
+  <h2>NASA's Curiosity is the largest and most advanced rover ever sent to Mars. The car-sized rover is part of NASA's Mars Science Laboratory (MSL).
+     Curiosity's ongoing mission is to study the ancient habitability and the potential for life on Mars.
+  </h2>
+  <h2>Curiosity was launched on 26 November 2011, and landed on Mars on 6 August 2012.</h2>
+
+
+</body>
+
+</html>

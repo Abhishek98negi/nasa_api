@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>nasa_api</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href ="static\apod\index.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Astronomy Picture of the Day</h1>
+  </header>
+  
+  <h2>{{title }}: {{date}}</h2>
+  {% if media_type == 'image'%}
+    <img src="{{image_video_url}}" alt="image of the day" height="600" width="900" />
+  {% else %}
+  <iframe width="900" height="600" src="{{image_video_url}}" allowfullscreen></iframe>
+  {%endif%}
+  <h3>{{ explanation}}</h3>
+  <h3>Copyright: {{copyright }}</h3>
+
+  <div class="post">
+      <a href="{% url "earth-images" %}">
+        {% load static %} <img src="{% static "apod/images/earth.jpg" %}" alt="Earth_image" />
+        <h3>Want to see some recent images of the Earth from the space?</h3>
+      </a>
+    </div>
+    <div class="post" id="mars">
+      <a href="{% url "mars" %}">
+        {% load static %} <img src="{% static "apod/images/mars.jpg" %}" alt="Mars_image" />
+
+        <h3>Have a look at some images of Mars by date.</h3>
+      </a>
+    </div>
+  <footer>
+    <h5>Abhishek Negi @2022</h5>
+  </footer>
+
+</body>
+
+</html>

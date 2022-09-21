@@ -1,0 +1,60 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  background-image:url("images/background1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+h3{
+  margin: 10px;
+}
+.post a {
+  height: 10rem;
+  width:20rem;
+  border-radius: 12px;
+  background-color: #121F26;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.post {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#mars{
+  margin-bottom: 100px;
+}
+
+.post a:hover,
+.post a:active {
+  transform: scale(1.1);
+  background-color: #0C1419;
+  color: white;
+}
+
+.post img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+footer{
+background-color:#121F26;
+padding:3px ;
+}
+header{
+background-color:#121F26;
+padding:10px;
+}
+
