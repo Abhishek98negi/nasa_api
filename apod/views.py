@@ -9,7 +9,7 @@ import urllib.request
 
 # Create your views here.
 
-api_key = ""; 
+api_key = ""; # paste your api key here.
 
 url ="https://api.nasa.gov/planetary/apod?api_key="+api_key
 
