@@ -12,7 +12,7 @@ It shows images of the Mars by choosing a specific date.
 
 
 To run the application:
-1. Download the zip file from Code button.
+1. Download the zip folder from Code button.
 2. Unzip the folder.
 3. go to the website "nasa open APIs" and generate your api-key.
 4. go to nasa_api/apod/views.py file and paste the api-key in the api_key variable.
