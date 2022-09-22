@@ -3,7 +3,7 @@ It shows different images daily ( Astronomy picture of the day ).
 ![image](https://user-images.githubusercontent.com/75579825/191638927-bada91fd-7356-42fb-a97e-a3f8e7469af0.png)
 
 
-It shows daily images of the Earth from space with the help of EPIC (Earth Polychromatic Imaging Camera).
+It shows daily images of the Earth from the space.
 ![image](https://user-images.githubusercontent.com/75579825/191639118-eb4bd85e-1a0d-4df9-8280-6ccab0cbd9ee.png)
 
 It shows images of the Mars by choosing a specific date.
