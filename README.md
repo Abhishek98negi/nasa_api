@@ -16,9 +16,7 @@ To run the application:
 2. Unzip the folder.
 3. go to the website "nasa open APIs" and generate your api-key.
 4. go to nasa_api/apod/views.py file and paste the api-key in the api_key variable.
-
-5.go to the root directory in cmd or terminal.
-   for example( C:\Downloads\nasa_api-main\nasa_api-main> )
+5.go to the root directory in cmd or terminal.for example( C:\Downloads\nasa_api-main\nasa_api-main> )
 6. run "Python manage.py runserver" withoue double quotes.
 7. copy the address ( like, "http://127.0.0.1:8000/" ) shown in cmd or terminal and paste that on the browser.
 8. finish.
